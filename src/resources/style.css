@@ -1,0 +1,114 @@
+.button-primary {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20 10 20;
+    -fx-min-width: 200px;
+    -fx-min-height: 40px;
+}
+
+.button-calc {
+
+    -fx-background-color: #2a5dab;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20 10 20;
+    -fx-min-width: 150px;
+    -fx-min-height: 40px;
+}
+.button-exp{
+    -fx-background-color: #77ab2a;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20 10 20;
+    -fx-min-width: 70px;
+    -fx-min-height: 40px;
+}
+
+.Main-background{
+    -fx-background-color: #d9ff89;
+}
+.Main-title{
+    -fx-font-size: 32px;
+    -fx-text-fill: #044806;
+    -fx-font-weight: bold;
+}
+.help-Text{
+    -fx-font-size: 14px;
+    -fx-background-radius: 20;
+    -fx-border-radius: 10;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 2;;
+}
+
+.help-title{
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+
+}
+
+.help-section-header{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+
+
+.Field{
+    -fx-max-height: 30px;
+    -fx-max-width: 200px;
+    -fx-border-radius: 30px;
+}
+
+.FieldsGrid{
+    -fx-padding:10px ;
+    -fx-alignment: center;
+    -fx-max-width: infinity;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-background-color: #eaffa1;
+}
+.Field-calc{
+    -fx-max-height: 20px;
+    -fx-max-width: 70px;
+}
+.ComboCalcType .list-cell{
+    -fx-background-insets: 0;
+    -fx-border-width: 0;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-font-weight: bold;
+    -fx-background-color: #eaffa1;
+    -fx-text-fill: #464646;
+    -fx-min-height: 40px;
+    -fx-min-width: 200px;
+    -fx-font-size: 14px;
+
+}
+.RadioBox{
+    -fx-alignment: center;
+}
+
+.text-1{
+    -fx-font-size: 20px;
+    -fx-text-fill: #a81f1f;
+    -fx-alignment: center;
+    -fx-tab-min-width: 300px;
+
+}
+
+.text-2{
+    -fx-font-size: 16px;
+    -fx-text-fill: #044806;
+
+
+}

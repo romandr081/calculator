@@ -1,0 +1,14 @@
+import javafx.application.Application;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+    public static void main(String[] args) {
+        DatabaseInitializer.initialize();
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) {
+        new LoginWindow().show(primaryStage);
+    }
+}
